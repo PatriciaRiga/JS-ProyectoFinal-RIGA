@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "contrasena": "jesse123",
+        "nombre": "Jesse Pinkman",
+        "nivel": "intermedio",
+        "nota1": 8,
+        "nota2": 7,
+        "nota3": 8,
+        "imagen": "./JP.jpg",
+        "promedio": ""
+    },
+    {
+        "id": 2,
+        "contrasena": "hankdea",
+        "nombre": "Hank Shrader",
+        "nivel": "avanzado",
+        "nota1": 9,
+        "nota2": 10,
+        "nota3": 9,
+        "imagen": "./HS.jpg",
+        "promedio": ""
+    },
+    {
+        "id": 3,
+        "contrasena": "mrwhite",
+        "nombre": "Walter White",
+        "nivel": "avanzado",
+        "nota1": 10,
+        "nota2": 9,
+        "nota3": 10,
+        "imagen": "./WW.jpg",
+        "promedio": ""
+    },
+    {
+        "id": 4,
+        "contrasena": "polloshermanos",
+        "nombre": "Gustavo Fring",
+        "nivel": "básico",
+        "nota1": 3,
+        "nota2": 5,
+        "nota3": 7,
+        "imagen": "./GF.jpg",
+        "promedio": ""
+    },
+    {
+        "id": 5,
+        "contrasena": "bettercallme",
+        "nombre": "Saul Goodman",
+        "nivel": "intermedio",
+        "nota1": 5,
+        "nota2": 6,
+        "nota3": 7,
+        "imagen": "./SG.jpg",
+        "promedio": ""
+    }
+]

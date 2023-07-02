@@ -1,0 +1,89 @@
+header {
+    background-image: url(./media/school.jpg);
+    width: auto;
+    height: 200px;
+    background-position: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+@media (max-width: 576px) {
+    header {
+        font-size: 1.5em;
+    }
+}
+
+@font-face {
+    font-family: "fuente-titulo";
+    src: url("./fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fuente-texto";
+    src: url("./fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
+
+#alumnoCard {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "fuente-texto";
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+#btnCalcular,
+#mostrarContrasena,
+#btnSubmit {
+    background-color: lightcoral;
+    color: black;
+    border-color: lightcoral;
+    border-radius: 10px;
+}
+
+#btnAceptar {
+    margin-top: 10px;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+
+body {
+    padding: 50px;
+}
+
+h1 {
+    font-family: "fuente-titulo", serif;
+}
+
+h1,
+h4,
+p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h4,
+p,
+#formularioLogIn #premiador {
+    font-family: "fuente-texto";
+}
+
+#formularioLogIn {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto {
+    margin: 10px;
+    border-radius: 10px;
+}
